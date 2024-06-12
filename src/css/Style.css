@@ -1,0 +1,82 @@
+input {
+  width: 400px; /* Adjust as needed */
+  height: 40px; /* Adjust as needed */
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: border-color 0.3s;
+}
+input:focus,
+input:hover {
+  outline: none; /* Remove outline on focus */
+  border-color: #007bff; /* Change border color on hover */
+}
+.search-bar {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+/* card section start */
+
+.card-dgn {
+  width: 400px; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
+  border-radius: 20px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  padding: 50px;
+}
+.city-name {
+  color: #333; /* Text color */
+  font-size: 36px; /* Font size */
+  font-weight: bold; /* Font weight */
+  font-family: Arial, sans-serif; /* Font family */
+  text-transform: uppercase; /* Convert text to uppercase */
+  /* Bottom margin */
+}
+/* temp sction */
+
+.weather-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.temp {
+  color: #333; /* Text color */
+  font-size: 65px; /* Font size */
+  font-weight: calc(20); /* Font weight */
+  justify-content: space-between; /* Font family */
+}
+.max-min-name {
+  color: #333; /* Text color */
+  font-size: 42px; /* Font size */
+  font-weight: calc(20); /* Font weight */
+  justify-content: space-between;
+}
+.max {
+  color: #333; /* Text color */
+  font-size: 22px; /* Font size */
+  font-weight: calc(20); /* Font weight */
+  justify-content: space-between;
+}
+.min {
+  color: #333; /* Text color */
+  font-size: 22px; /* Font size */
+  font-weight: calc(20); /* Font weight */
+  justify-content: space-between;
+}
+.img-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+.img-section img {
+  height: 200px;
+  width: 200px;
+}
+.feel-secton {
+  color: #333; /* Text color */
+  font-size: 28px; /* Font size */
+  font-weight: calc(20); /* Font weight */
+  justify-content: space-between;
+}
